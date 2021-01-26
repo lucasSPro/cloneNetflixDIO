@@ -23,7 +23,7 @@ header .container{
 }
 header .container img {
     width: 120px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 header nav a {
     text-decoration: none;
@@ -56,6 +56,9 @@ header nav a:hover{
     font-family: 'Trebuchet MS', Arial, sans-serif;
     margin-top: 15%;
 }
+.filme-principal .container{
+    width: 70%;
+}
 .botao{
     background-color: rgba(0,0,0,0.5);
     border: none;
@@ -75,4 +78,13 @@ header nav a:hover{
 }
 .botao i {
     margin-right: 8px;
+}
+.container {
+    margin-left: 30px;
+}
+
+.box-filme{
+    height: 80%;
+    width: 80%;
+    display: block;
 }
